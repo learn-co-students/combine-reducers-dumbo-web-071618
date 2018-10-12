@@ -28,6 +28,7 @@ export class BookInput extends Component {
   }
 
   render() {
+    console.log(this.state);
     return(
       <form onSubmit={(event) => this.handleOnSubmit(event)}>
         <p>
